@@ -1,6 +1,6 @@
 #![cfg_attr(not(feature = "std"), no_std)]
 
-///Here we use the native tranfer function to tranfer native tokens to the contract
+///Here we use the native tranfer function to tranfer native tokens to the contract.
 #[ink::contract]
 mod learning_ink {
     #[ink(storage)]
