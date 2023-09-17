@@ -1,8 +1,8 @@
 {
   "node": {
     "localPath": "",
-    "polkadotPalletVersions": "polkadot-v0.9.37",
-    "supportedInk": "v4.0.0"
+    "polkadotPalletVersions": "polkadot-v0.9.39",
+    "supportedInk": "v4.2.0"
   },
   "accounts": [
     {
@@ -18,13 +18,6 @@
       "address": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty"
     }
   ],
-  "contracts": {
-    "learning_ink": {
-      "name": "learning_ink",
-      "deployments": [],
-      "language": "ink"
-    }
-  },
   "networks": {
     "local": {
       "url": "ws://127.0.0.1:9944"
@@ -37,6 +30,13 @@
     },
     "shibuya": {
       "url": "wss://rpc.shibuya.astar.network"
+    }
+  },
+  "contracts": {
+    "default": {
+      "name": "default",
+      "moduleName": "default",
+      "deployments": []
     }
   }
 }
